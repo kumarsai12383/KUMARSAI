@@ -97,10 +97,14 @@ body{
 }
 
 
-.container{
+.container-1{
+    
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
     height:auto;
     
 }
@@ -112,7 +116,7 @@ img{
     padding: 20px;
     background-color: #19b5fdd1;
     border-radius: 10px;
-    width: 650px;
+    width: 400px;
     justify-content: center;
     height: auto;
     color: #ffffff;
@@ -132,10 +136,12 @@ img{
         width: 100%;
         height: auto;
     }
-    .container{
+    .container-1{
         flex-direction: column;
         width:80%;
         margin: 20px;
+        margin-left: auto;
+        margin-right: auto;
         height: auto;
         justify-content: center;
     }
